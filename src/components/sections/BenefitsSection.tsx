@@ -28,10 +28,10 @@ export default function BenefitsSection({
       title: 'Always-on market scanning',
       description:
         'Our AI continuously monitors market conditions, price movements, and trading opportunities across multiple assets, so you never miss a potential trade.',
-      icon: <MagnifyingGlassIcon className="w-8 h-8 text-cyan-400" />,
+      icon: <MagnifyingGlassIcon className="w-8 h-8 text-green-400" />,
       visualDemo: (
         <div className="flex items-center space-x-2 mt-4">
-          <div className="w-3 h-3 bg-cyan-400 rounded-full animate-pulse"></div>
+          <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse"></div>
           <span className="text-sm text-gray-300">Scanning 24/7</span>
         </div>
       ),
@@ -59,22 +59,22 @@ export default function BenefitsSection({
       title: 'Personalized risk profiles and signal refinement',
       description:
         'AI learns from your trading patterns and preferences to provide increasingly personalized recommendations and risk management.',
-      icon: <UserIcon className="w-8 h-8 text-blue-400" />,
+      icon: <UserIcon className="w-8 h-8 text-green-400" />,
       visualDemo: (
         <div className="mt-4 space-y-2">
           <div className="flex items-center justify-between">
             <span className="text-xs text-gray-400">Risk Tolerance</span>
-            <span className="text-xs font-medium text-blue-400">Moderate</span>
+            <span className="text-xs font-medium text-green-400">Moderate</span>
           </div>
           <div className="w-full bg-gray-700 rounded-full h-2">
             <div
-              className="bg-blue-400 h-2 rounded-full"
+              className="bg-green-400 h-2 rounded-full"
               style={{ width: '60%' }}
             ></div>
           </div>
           <div className="flex items-center justify-between">
             <span className="text-xs text-gray-400">AI Learning</span>
-            <span className="text-xs font-medium text-blue-400">
+            <span className="text-xs font-medium text-green-400">
               85% Complete
             </span>
           </div>
@@ -85,18 +85,18 @@ export default function BenefitsSection({
       title: 'Automated trade execution',
       description:
         'Let AI execute trades based on your predefined strategies and risk parameters, removing emotion from your trading decisions.',
-      icon: <CogIcon className="w-8 h-8 text-pink-400" />,
+      icon: <CogIcon className="w-8 h-8 text-green-400" />,
       comingSoon: true,
       visualDemo: (
-        <div className="mt-4 bg-pink-900/20 border border-pink-400/30 rounded-lg p-3 relative">
+        <div className="mt-4 bg-green-900/20 border border-green-400/30 rounded-lg p-3 relative">
           <div className="absolute top-2 right-2">
-            <span className="bg-pink-500 text-white text-xs px-2 py-1 rounded-full">
+            <span className="bg-green-500 text-black text-xs px-2 py-1 rounded-full">
               Coming Soon
             </span>
           </div>
           <div className="flex items-center space-x-2">
-            <ClockIcon className="w-4 h-4 text-pink-400" />
-            <span className="text-sm text-pink-300">Auto-execution ready</span>
+            <ClockIcon className="w-4 h-4 text-green-400" />
+            <span className="text-sm text-green-300">Auto-execution ready</span>
           </div>
         </div>
       ),
@@ -125,12 +125,12 @@ export default function BenefitsSection({
               className="bg-gray-800 border border-gray-700 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 p-6 md:p-8 relative overflow-hidden group hover:border-gray-600"
             >
               {/* Background decoration */}
-              <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-cyan-500/10 to-pink-500/10 rounded-full -translate-y-16 translate-x-16 group-hover:scale-110 transition-transform duration-300"></div>
+              <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-green-500/10 to-emerald-500/10 rounded-full -translate-y-16 translate-x-16 group-hover:scale-110 transition-transform duration-300"></div>
 
               {/* Coming Soon Badge */}
               {benefit.comingSoon && (
                 <div className="absolute top-4 right-4 z-10">
-                  <span className="bg-pink-500 text-white text-sm font-medium px-3 py-1 rounded-full">
+                  <span className="bg-green-500 text-black text-sm font-medium px-3 py-1 rounded-full">
                     Coming Soon
                   </span>
                 </div>
@@ -161,7 +161,7 @@ export default function BenefitsSection({
               </div>
 
               {/* Hover effect overlay */}
-              <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/5 to-pink-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-green-500/5 to-emerald-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl"></div>
             </div>
           ))}
         </div>
@@ -179,7 +179,7 @@ export default function BenefitsSection({
                   '_blank'
                 )
               }
-              className="bg-gradient-to-r from-cyan-500 to-blue-500 text-white px-6 md:px-8 py-3 rounded-lg font-medium hover:from-cyan-600 hover:to-blue-600 transition-all duration-200 touch-target w-full sm:w-auto"
+              className="bg-gradient-to-r from-green-500 to-emerald-500 text-black px-6 md:px-8 py-3 rounded-lg font-medium hover:from-green-600 hover:to-emerald-600 transition-all duration-200 touch-target w-full sm:w-auto"
             >
               Download iOS App
             </button>
@@ -190,7 +190,7 @@ export default function BenefitsSection({
                   '_blank'
                 )
               }
-              className="border border-pink-500 text-pink-400 px-6 md:px-8 py-3 rounded-lg font-medium hover:bg-pink-500/10 transition-colors duration-200 touch-target w-full sm:w-auto"
+              className="border border-green-500 text-green-400 px-6 md:px-8 py-3 rounded-lg font-medium hover:bg-green-500/10 transition-colors duration-200 touch-target w-full sm:w-auto"
             >
               Download Android App
             </button>

@@ -45,7 +45,7 @@ export default function VisualDemoSection({
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-4xl sm:text-5xl font-bold bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent mb-6">
+          <h2 className="text-4xl sm:text-5xl font-bold bg-gradient-to-r from-green-400 via-green-300 to-emerald-400 bg-clip-text text-transparent mb-6">
             See Only Bulls in Action
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
@@ -64,7 +64,7 @@ export default function VisualDemoSection({
             className="relative"
           >
             <div className="text-center mb-8">
-              <h3 className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent mb-4">
+              <h3 className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-green-400 to-emerald-500 bg-clip-text text-transparent mb-4">
                 Clean Market Data Interface
               </h3>
               <p className="text-gray-300">
@@ -108,7 +108,7 @@ export default function VisualDemoSection({
                       ].map((height, i) => (
                         <div
                           key={i}
-                          className="bg-cyan-500 rounded-t flex-1 transition-all duration-300 hover:bg-cyan-400"
+                          className="bg-green-500 rounded-t flex-1 transition-all duration-300 hover:bg-green-400"
                           style={{ height: `${height}%` }}
                         ></div>
                       ))}
@@ -128,29 +128,29 @@ export default function VisualDemoSection({
                         </div>
                         <div className="text-sm text-green-400">+1.23%</div>
                       </div>
-                      <div className="bg-cyan-900/20 border border-cyan-500/30 rounded-lg p-3">
+                      <div className="bg-green-900/20 border border-green-500/30 rounded-lg p-3">
                         <div className="flex items-center space-x-2">
-                          <ChartBarIcon className="w-5 h-5 text-cyan-400" />
-                          <span className="text-sm font-medium text-cyan-400">
+                          <ChartBarIcon className="w-5 h-5 text-green-400" />
+                          <span className="text-sm font-medium text-green-400">
                             NASDAQ
                           </span>
                         </div>
                         <div className="text-lg font-bold text-white">
                           14,234.56
                         </div>
-                        <div className="text-sm text-cyan-400">+0.87%</div>
+                        <div className="text-sm text-green-400">+0.87%</div>
                       </div>
-                      <div className="bg-pink-900/20 border border-pink-500/30 rounded-lg p-3">
+                      <div className="bg-green-900/20 border border-green-500/30 rounded-lg p-3">
                         <div className="flex items-center space-x-2">
-                          <CurrencyDollarIcon className="w-5 h-5 text-pink-400" />
-                          <span className="text-sm font-medium text-pink-400">
+                          <CurrencyDollarIcon className="w-5 h-5 text-green-400" />
+                          <span className="text-sm font-medium text-green-400">
                             Portfolio
                           </span>
                         </div>
                         <div className="text-lg font-bold text-white">
                           $127,456
                         </div>
-                        <div className="text-sm text-pink-400">+2.14%</div>
+                        <div className="text-sm text-green-400">+2.14%</div>
                       </div>
                     </div>
                   </div>
@@ -161,14 +161,14 @@ export default function VisualDemoSection({
                       AI Insights
                     </h4>
                     <div className="space-y-3">
-                      <div className="bg-cyan-900/20 border border-cyan-500/30 rounded-lg p-3">
+                      <div className="bg-green-900/20 border border-green-500/30 rounded-lg p-3">
                         <div className="flex items-start space-x-2">
-                          <div className="w-2 h-2 bg-cyan-400 rounded-full mt-2"></div>
+                          <div className="w-2 h-2 bg-green-400 rounded-full mt-2"></div>
                           <div>
-                            <p className="text-sm font-medium text-cyan-400">
+                            <p className="text-sm font-medium text-green-400">
                               Bullish Signal
                             </p>
-                            <p className="text-xs text-cyan-300">
+                            <p className="text-xs text-green-300">
                               AAPL showing strong momentum
                             </p>
                           </div>
@@ -218,7 +218,7 @@ export default function VisualDemoSection({
             className="text-center"
           >
             <div className="mb-8">
-              <h3 className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-pink-400 to-purple-500 bg-clip-text text-transparent mb-4">
+              <h3 className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-green-400 to-lime-500 bg-clip-text text-transparent mb-4">
                 Smart Mobile Alerts
               </h3>
               <p className="text-gray-300">
@@ -253,8 +253,8 @@ export default function VisualDemoSection({
                           viewport={{ once: true }}
                         >
                           <div className="flex items-start space-x-3 mb-3">
-                            <div className="w-6 h-6 bg-cyan-500/20 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
-                              <BellAlertIcon className="w-4 h-4 text-cyan-400" />
+                            <div className="w-6 h-6 bg-green-500/20 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                              <BellAlertIcon className="w-4 h-4 text-green-400" />
                             </div>
                             <div className="flex-1 min-w-0">
                               <p className="text-sm font-semibold text-white mb-1">
@@ -273,7 +273,7 @@ export default function VisualDemoSection({
                               </span>
                             </div>
                             <div className="flex space-x-2">
-                              <button className="text-xs bg-cyan-500 hover:bg-cyan-600 text-white px-3 py-1.5 rounded font-medium transition-colors">
+                              <button className="text-xs bg-green-500 hover:bg-green-600 text-black px-3 py-1.5 rounded font-medium transition-colors">
                                 Act
                               </button>
                               <button className="text-xs border border-gray-500 hover:border-gray-400 text-gray-300 hover:text-white px-3 py-1.5 rounded transition-colors">
@@ -317,8 +317,8 @@ export default function VisualDemoSection({
                           viewport={{ once: true }}
                         >
                           <div className="flex items-start space-x-3">
-                            <div className="w-6 h-6 bg-pink-500/20 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
-                              <ArrowTrendingUpIcon className="w-4 h-4 text-pink-400" />
+                            <div className="w-6 h-6 bg-green-500/20 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                              <ArrowTrendingUpIcon className="w-4 h-4 text-green-400" />
                             </div>
                             <div className="flex-1 min-w-0">
                               <p className="text-sm font-semibold text-white mb-1">
@@ -351,8 +351,8 @@ export default function VisualDemoSection({
               <div className="relative">
                 <div className="bg-gray-800 border border-gray-600 rounded-lg shadow-lg p-6 max-w-sm">
                   <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-cyan-900/30 border border-cyan-500/30 rounded-full flex items-center justify-center">
-                      <BellAlertIcon className="w-6 h-6 text-cyan-400" />
+                    <div className="w-12 h-12 bg-green-900/30 border border-green-500/30 rounded-full flex items-center justify-center">
+                      <BellAlertIcon className="w-6 h-6 text-green-400" />
                     </div>
                     <div className="flex-1">
                       <h4 className="text-lg font-semibold text-white mb-2">
@@ -369,7 +369,7 @@ export default function VisualDemoSection({
                           <span>Real-time</span>
                         </div>
                         <div className="flex items-center space-x-1">
-                          <div className="w-2 h-2 bg-cyan-400 rounded-full"></div>
+                          <div className="w-2 h-2 bg-green-400 rounded-full"></div>
                           <span>Contextual</span>
                         </div>
                       </div>
@@ -399,7 +399,7 @@ export default function VisualDemoSection({
             className="text-center"
           >
             <div className="mb-12">
-              <h3 className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-green-400 to-cyan-500 bg-clip-text text-transparent mb-4">
+              <h3 className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-emerald-400 to-green-500 bg-clip-text text-transparent mb-4">
                 AI-Powered Decision Flow
               </h3>
               <p className="text-gray-300">
@@ -418,7 +418,7 @@ export default function VisualDemoSection({
                     description:
                       'AI continuously monitors market conditions and identifies opportunities',
                     icon: <ChartBarIcon className="w-8 h-8" />,
-                    color: 'cyan',
+                    color: 'green',
                   },
                   {
                     step: 2,
@@ -426,7 +426,7 @@ export default function VisualDemoSection({
                     description:
                       'Deep analysis of technical indicators, sentiment, and risk factors',
                     icon: <ClockIcon className="w-8 h-8" />,
-                    color: 'green',
+                    color: 'emerald',
                   },
                   {
                     step: 3,
@@ -434,7 +434,7 @@ export default function VisualDemoSection({
                     description:
                       'Personalized trading recommendations based on your risk profile',
                     icon: <BellAlertIcon className="w-8 h-8" />,
-                    color: 'pink',
+                    color: 'lime',
                   },
                   {
                     step: 4,
@@ -442,7 +442,7 @@ export default function VisualDemoSection({
                     description:
                       'Optional automated execution or manual confirmation based on your preference',
                     icon: <CheckCircleIcon className="w-8 h-8" />,
-                    color: 'blue',
+                    color: 'green',
                   },
                 ].map((item, index) => (
                   <motion.div
@@ -461,24 +461,24 @@ export default function VisualDemoSection({
                     <div className="relative z-10 bg-gray-800 border border-gray-600 rounded-xl shadow-lg p-6 hover:shadow-xl hover:border-gray-500 transition-all duration-300">
                       <div
                         className={`w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 ${
-                          item.color === 'cyan'
-                            ? 'bg-cyan-900/30 border border-cyan-500/30'
-                            : item.color === 'green'
-                              ? 'bg-green-900/30 border border-green-500/30'
-                              : item.color === 'pink'
-                                ? 'bg-pink-900/30 border border-pink-500/30'
-                                : 'bg-blue-900/30 border border-blue-500/30'
+                          item.color === 'green'
+                            ? 'bg-green-900/30 border border-green-500/30'
+                            : item.color === 'emerald'
+                              ? 'bg-emerald-900/30 border border-emerald-500/30'
+                              : item.color === 'lime'
+                                ? 'bg-lime-900/30 border border-lime-500/30'
+                                : 'bg-green-900/30 border border-green-500/30'
                         }`}
                       >
                         <div
                           className={`${
-                            item.color === 'cyan'
-                              ? 'text-cyan-400'
-                              : item.color === 'green'
-                                ? 'text-green-400'
-                                : item.color === 'pink'
-                                  ? 'text-pink-400'
-                                  : 'text-blue-400'
+                            item.color === 'green'
+                              ? 'text-green-400'
+                              : item.color === 'emerald'
+                                ? 'text-emerald-400'
+                                : item.color === 'lime'
+                                  ? 'text-lime-400'
+                                  : 'text-green-400'
                           }`}
                         >
                           {item.icon}
@@ -486,14 +486,14 @@ export default function VisualDemoSection({
                       </div>
 
                       <div
-                        className={`w-8 h-8 text-white rounded-full flex items-center justify-center text-sm font-bold mx-auto mb-4 ${
-                          item.color === 'cyan'
-                            ? 'bg-cyan-500'
-                            : item.color === 'green'
-                              ? 'bg-green-500'
-                              : item.color === 'pink'
-                                ? 'bg-pink-500'
-                                : 'bg-blue-500'
+                        className={`w-8 h-8 text-black rounded-full flex items-center justify-center text-sm font-bold mx-auto mb-4 ${
+                          item.color === 'green'
+                            ? 'bg-green-500'
+                            : item.color === 'emerald'
+                              ? 'bg-emerald-500'
+                              : item.color === 'lime'
+                                ? 'bg-lime-500'
+                                : 'bg-green-500'
                         }`}
                       >
                         {item.step}
@@ -531,7 +531,7 @@ export default function VisualDemoSection({
                       '_blank'
                     )
                   }
-                  className="bg-gradient-to-r from-cyan-500 to-blue-500 text-white px-8 py-3 rounded-lg font-medium hover:from-cyan-600 hover:to-blue-600 transition-all duration-200 touch-target"
+                  className="bg-gradient-to-r from-green-500 to-emerald-500 text-black px-8 py-3 rounded-lg font-medium hover:from-green-600 hover:to-emerald-600 transition-all duration-200 touch-target"
                 >
                   Download iOS App
                 </button>
@@ -542,7 +542,7 @@ export default function VisualDemoSection({
                       '_blank'
                     )
                   }
-                  className="border border-pink-500 text-pink-400 px-8 py-3 rounded-lg font-medium hover:bg-pink-500/10 transition-colors duration-200 touch-target"
+                  className="border border-green-500 text-green-400 px-8 py-3 rounded-lg font-medium hover:bg-green-500/10 transition-colors duration-200 touch-target"
                 >
                   Download Android App
                 </button>

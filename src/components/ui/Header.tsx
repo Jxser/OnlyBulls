@@ -57,8 +57,8 @@ export default function Header({ navigationItems, ctaButton }: HeaderProps) {
                   }
                 }}
                 className={cn(
-                  'text-sm md:text-base font-medium transition-colors duration-200 hover:text-cyan-400 touch-target cursor-pointer',
-                  item.isActive ? 'text-cyan-400' : 'text-gray-300'
+                  'text-sm md:text-base font-medium transition-colors duration-200 hover:text-green-400 touch-target cursor-pointer',
+                  item.isActive ? 'text-green-400' : 'text-gray-300'
                 )}
                 data-testid={`nav-link-${item.label.toLowerCase()}`}
               >
@@ -86,7 +86,7 @@ export default function Header({ navigationItems, ctaButton }: HeaderProps) {
           <div className="md:hidden">
             <button
               onClick={toggleMobileMenu}
-              className="touch-target p-2 rounded-md text-gray-300 hover:text-cyan-400 hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:ring-offset-2"
+              className="touch-target p-2 rounded-md text-gray-300 hover:text-green-400 hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
               data-testid="mobile-menu-toggle"
               aria-label="Toggle mobile menu"
             >
@@ -115,9 +115,9 @@ export default function Header({ navigationItems, ctaButton }: HeaderProps) {
                     setIsMobileMenuOpen(false);
                   }}
                   className={cn(
-                    'block px-3 py-3 rounded-md text-base font-medium transition-colors duration-200 hover:text-cyan-400 hover:bg-gray-800 touch-target cursor-pointer',
+                    'block px-3 py-3 rounded-md text-base font-medium transition-colors duration-200 hover:text-green-400 hover:bg-gray-800 touch-target cursor-pointer',
                     item.isActive
-                      ? 'text-cyan-400 bg-gray-800'
+                      ? 'text-green-400 bg-gray-800'
                       : 'text-gray-300'
                   )}
                   data-testid={`mobile-nav-link-${item.label.toLowerCase()}`}

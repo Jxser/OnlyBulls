@@ -169,7 +169,7 @@ export default function PricingCTASection({
     >
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-4xl sm:text-5xl font-bold bg-gradient-to-r from-green-400 via-cyan-500 to-blue-600 bg-clip-text text-transparent mb-6">
+          <h2 className="text-4xl sm:text-5xl font-bold bg-gradient-to-r from-green-400 via-emerald-500 to-lime-600 bg-clip-text text-transparent mb-6">
             {content.headline}
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
@@ -180,28 +180,28 @@ export default function PricingCTASection({
         <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
           <div className="grid lg:grid-cols-2 gap-0">
             {/* Value Proposition Side */}
-            <div className="bg-gradient-to-br from-blue-600 to-indigo-700 p-8 sm:p-12 text-white">
+            <div className="bg-gradient-to-br from-green-600 to-emerald-700 p-8 sm:p-12 text-white">
               <h3 className="text-2xl font-bold mb-6">What You Get</h3>
               <ul className="space-y-4 mb-8">
                 {content.valueProps.map((prop, index) => (
                   <li key={index} className="flex items-start gap-3">
-                    <CheckIcon className="w-6 h-6 text-blue-200 flex-shrink-0 mt-0.5" />
-                    <span className="text-blue-50">{prop}</span>
+                    <CheckIcon className="w-6 h-6 text-green-200 flex-shrink-0 mt-0.5" />
+                    <span className="text-green-50">{prop}</span>
                   </li>
                 ))}
               </ul>
 
               {/* Trust signals */}
-              <div className="border-t border-blue-500 pt-6">
+              <div className="border-t border-green-500 pt-6">
                 <div className="flex items-center gap-3 mb-4">
-                  <UserGroupIcon className="w-6 h-6 text-blue-200" />
-                  <span className="text-blue-100 text-sm">
+                  <UserGroupIcon className="w-6 h-6 text-green-200" />
+                  <span className="text-green-100 text-sm">
                     {content.trustSignal}
                   </span>
                 </div>
                 <div className="flex items-center gap-3">
-                  <ShieldCheckIcon className="w-6 h-6 text-blue-200" />
-                  <span className="text-blue-100 text-sm">
+                  <ShieldCheckIcon className="w-6 h-6 text-green-200" />
+                  <span className="text-green-100 text-sm">
                     Your data is secure and never shared with third parties
                   </span>
                 </div>
@@ -226,7 +226,7 @@ export default function PricingCTASection({
                     {...register('email')}
                     type="email"
                     id="email"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500 transition-colors"
                     placeholder="your.email@example.com"
                   />
                   {errors.email && (
@@ -248,7 +248,7 @@ export default function PricingCTASection({
                     {...register('firstName')}
                     type="text"
                     id="firstName"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500 transition-colors"
                     placeholder="John"
                   />
                   {errors.firstName && (
@@ -270,7 +270,7 @@ export default function PricingCTASection({
                     {...register('lastName')}
                     type="text"
                     id="lastName"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500 transition-colors"
                     placeholder="Doe"
                   />
                 </div>
@@ -298,7 +298,7 @@ export default function PricingCTASection({
                     can unsubscribe at any time.{' '}
                     <a
                       href="/privacy"
-                      className="text-blue-600 hover:text-blue-700 underline"
+                      className="text-green-600 hover:text-green-700 underline"
                     >
                       Privacy Policy
                     </a>

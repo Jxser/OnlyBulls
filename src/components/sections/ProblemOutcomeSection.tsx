@@ -34,14 +34,14 @@ export default function ProblemOutcomeSection({
       title: 'Decision Confidence',
       description:
         'Make informed decisions backed by AI analysis instead of gut feelings and FOMO.',
-      icon: <ShieldCheckIcon className="w-8 h-8 text-cyan-400" />,
+      icon: <ShieldCheckIcon className="w-8 h-8 text-green-400" />,
       metric: '95% confidence boost',
     },
     {
       title: 'Better Performance',
       description:
         'Achieve consistent results with data-driven strategies instead of emotional trading.',
-      icon: <ArrowTrendingUpIcon className="w-8 h-8 text-pink-400" />,
+      icon: <ArrowTrendingUpIcon className="w-8 h-8 text-green-400" />,
       metric: '30% better returns',
     },
   ];
@@ -135,12 +135,12 @@ export default function ProblemOutcomeSection({
             </div>
 
             {/* Success Indicator */}
-            <div className="bg-gradient-to-r from-cyan-600 to-blue-600 text-white rounded-xl p-4 md:p-6 text-center">
+            <div className="bg-gradient-to-r from-green-600 to-emerald-600 text-white rounded-xl p-4 md:p-6 text-center">
               <CheckCircleIcon className="w-10 h-10 md:w-12 md:h-12 mx-auto mb-4 text-green-300" />
               <h3 className="text-lg md:text-xl font-semibold mb-2">
                 Your New Reality
               </h3>
-              <p className="text-sm md:text-base text-cyan-100">
+              <p className="text-sm md:text-base text-green-100">
                 Sleep better knowing your AI agent is watching the markets,
                 making informed decisions, and protecting your investments.
               </p>

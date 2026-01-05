@@ -34,8 +34,8 @@ export default function AppDownloadSection({
       <div className="max-w-4xl mx-auto text-center">
         {/* Main heading */}
         <div className="mb-12">
-          <DevicePhoneMobileIcon className="w-16 h-16 text-cyan-400 mx-auto mb-6" />
-          <h2 className="text-4xl sm:text-5xl font-bold bg-gradient-to-r from-cyan-400 via-pink-500 to-purple-600 bg-clip-text text-transparent mb-6">
+          <DevicePhoneMobileIcon className="w-16 h-16 text-green-400 mx-auto mb-6" />
+          <h2 className="text-4xl sm:text-5xl font-bold bg-gradient-to-r from-green-400 via-emerald-500 to-lime-400 bg-clip-text text-transparent mb-6">
             Get Only Bulls on Your Mobile Device
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
@@ -49,7 +49,7 @@ export default function AppDownloadSection({
           {/* iOS App Store Button */}
           <button
             onClick={handleAppStoreClick}
-            className="group flex items-center gap-3 bg-gradient-to-r from-cyan-500 to-blue-500 text-white px-6 py-4 rounded-xl hover:from-cyan-600 hover:to-blue-600 transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl"
+            className="group flex items-center gap-3 bg-gradient-to-r from-green-500 to-emerald-500 text-black px-6 py-4 rounded-xl hover:from-green-600 hover:to-emerald-600 transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl"
             aria-label="Download Only Bulls from the Apple App Store"
           >
             <div className="w-8 h-8 flex items-center justify-center">
@@ -67,7 +67,7 @@ export default function AppDownloadSection({
           {/* Google Play Store Button */}
           <button
             onClick={handlePlayStoreClick}
-            className="group flex items-center gap-3 bg-gradient-to-r from-pink-500 to-purple-500 text-white px-6 py-4 rounded-xl hover:from-pink-600 hover:to-purple-600 transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl"
+            className="group flex items-center gap-3 bg-gradient-to-r from-green-500 to-emerald-500 text-black px-6 py-4 rounded-xl hover:from-green-600 hover:to-emerald-600 transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl"
             aria-label="Download Only Bulls from Google Play Store"
           >
             <div className="w-8 h-8 flex items-center justify-center">
@@ -91,7 +91,7 @@ export default function AppDownloadSection({
               <span className="text-lg">Powered by</span>
               <button
                 onClick={handleAskRoiClick}
-                className="group inline-flex items-center gap-2 text-lg font-semibold text-cyan-400 hover:text-cyan-300 transition-colors"
+                className="group inline-flex items-center gap-2 text-lg font-semibold text-green-400 hover:text-green-300 transition-colors"
                 aria-label="Visit AskROI.com website"
               >
                 AskROI.com
@@ -121,11 +121,11 @@ export default function AppDownloadSection({
                 <span>Available on iOS & Android</span>
               </div>
               <div className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-cyan-400 rounded-full"></div>
+                <div className="w-2 h-2 bg-green-400 rounded-full"></div>
                 <span>Secure & Encrypted</span>
               </div>
               <div className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-pink-400 rounded-full"></div>
+                <div className="w-2 h-2 bg-green-400 rounded-full"></div>
                 <span>AI-Powered Trading</span>
               </div>
             </div>

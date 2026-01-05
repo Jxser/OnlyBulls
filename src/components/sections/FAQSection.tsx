@@ -65,7 +65,7 @@ export default function FAQSection({ className = '' }: FAQSectionProps) {
       <div className="max-w-4xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl sm:text-5xl font-bold bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent mb-6">
+          <h2 className="text-4xl sm:text-5xl font-bold bg-gradient-to-r from-green-400 via-emerald-500 to-lime-600 bg-clip-text text-transparent mb-6">
             Frequently Asked Questions
           </h2>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
@@ -91,7 +91,7 @@ export default function FAQSection({ className = '' }: FAQSectionProps) {
                 </h3>
                 <div className="flex-shrink-0">
                   {expandedItems.has(faq.id) ? (
-                    <ChevronUpIcon className="w-6 h-6 text-cyan-400" />
+                    <ChevronUpIcon className="w-6 h-6 text-green-400" />
                   ) : (
                     <ChevronDownIcon className="w-6 h-6 text-gray-400" />
                   )}
@@ -124,7 +124,7 @@ export default function FAQSection({ className = '' }: FAQSectionProps) {
                   '_blank'
                 )
               }
-              className="bg-gradient-to-r from-cyan-500 to-blue-500 text-white px-8 py-3 rounded-lg font-medium hover:from-cyan-600 hover:to-blue-600 transition-all duration-200"
+              className="bg-gradient-to-r from-green-500 to-emerald-500 text-black px-8 py-3 rounded-lg font-medium hover:from-green-600 hover:to-emerald-600 transition-all duration-200"
             >
               Download iOS App
             </button>
@@ -135,7 +135,7 @@ export default function FAQSection({ className = '' }: FAQSectionProps) {
                   '_blank'
                 )
               }
-              className="border border-pink-500 text-pink-400 px-8 py-3 rounded-lg font-medium hover:bg-pink-500/10 transition-colors duration-200"
+              className="border border-green-500 text-green-400 px-8 py-3 rounded-lg font-medium hover:bg-green-500/10 transition-colors duration-200"
             >
               Download Android App
             </button>
