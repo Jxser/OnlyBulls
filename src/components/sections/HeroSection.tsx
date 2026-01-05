@@ -33,9 +33,9 @@ export default function HeroSection({
     <section className="relative bg-gradient-to-br from-black via-gray-900 to-black px-4 sm:px-6 lg:px-8 py-20 min-h-screen flex items-center">
       {/* Background geometric patterns with neon colors */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-cyan-500/10 rounded-full blur-3xl"></div>
-        <div className="absolute -bottom-40 -left-40 w-96 h-96 bg-pink-500/10 rounded-full blur-3xl"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-blue-500/5 rounded-full blur-2xl"></div>
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-green-500/10 rounded-full blur-3xl"></div>
+        <div className="absolute -bottom-40 -left-40 w-96 h-96 bg-emerald-500/10 rounded-full blur-3xl"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-lime-500/5 rounded-full blur-2xl"></div>
       </div>
 
       <div className="relative max-w-7xl mx-auto w-full">
@@ -48,8 +48,8 @@ export default function HeroSection({
           {/* Subheadline - Mobile-optimized */}
           <p className="text-lg sm:text-xl md:text-2xl text-gray-300 max-w-4xl mx-auto section-margin leading-relaxed">
             24/7 AI Market Agent That Helps You{' '}
-            <span className="text-cyan-400">Spot Opportunities</span> and{' '}
-            <span className="text-pink-400">Execute Trades Smarter</span>
+            <span className="text-green-400">Spot Opportunities</span> and{' '}
+            <span className="text-green-300">Execute Trades Smarter</span>
           </p>
 
           {/* Trust signals - Mobile-friendly layout */}
@@ -59,11 +59,11 @@ export default function HeroSection({
               <span>24/7 Market Monitoring</span>
             </div>
             <div className="flex items-center gap-2">
-              <div className="w-2 h-2 bg-cyan-400 rounded-full"></div>
+              <div className="w-2 h-2 bg-green-400 rounded-full"></div>
               <span>AI-Powered Insights</span>
             </div>
             <div className="flex items-center gap-2">
-              <div className="w-2 h-2 bg-pink-400 rounded-full"></div>
+              <div className="w-2 h-2 bg-green-400 rounded-full"></div>
               <span>Smart Trade Execution</span>
             </div>
           </div>
@@ -76,7 +76,7 @@ export default function HeroSection({
               onClick={handlePrimaryCTA}
               analyticsLabel="Download iOS App"
               analyticsLocation="hero"
-              className="text-responsive-base px-6 py-3 md:px-8 md:py-4 w-full sm:w-auto bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 border-0"
+              className="text-responsive-base px-6 py-3 md:px-8 md:py-4 w-full sm:w-auto bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 border-0"
             >
               Download for iOS
             </CTAButton>
@@ -87,7 +87,7 @@ export default function HeroSection({
               onClick={handleSecondaryCTA}
               analyticsLabel="Download Android App"
               analyticsLocation="hero"
-              className="text-responsive-base px-6 py-3 md:px-8 md:py-4 w-full sm:w-auto border-pink-500 text-pink-400 hover:bg-pink-500/10"
+              className="text-responsive-base px-6 py-3 md:px-8 md:py-4 w-full sm:w-auto border-green-500 text-green-400 hover:bg-green-500/10"
             >
               Download for Android
             </CTAButton>

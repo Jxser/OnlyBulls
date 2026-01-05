@@ -47,11 +47,11 @@ const CTAButton = forwardRef<HTMLButtonElement, CTAButtonProps>(
 
     const variantStyles = {
       primary:
-        'bg-gradient-to-r from-cyan-500 to-blue-500 text-white hover:from-cyan-600 hover:to-blue-600 focus:ring-cyan-500 active:from-cyan-700 active:to-blue-700 border-0',
+        'bg-gradient-to-r from-green-500 to-emerald-500 text-black hover:from-green-600 hover:to-emerald-600 focus:ring-green-500 active:from-green-700 active:to-emerald-700 border-0',
       secondary:
         'bg-gray-800 text-gray-200 hover:bg-gray-700 focus:ring-gray-500 active:bg-gray-600 border border-gray-600',
       outline:
-        'border border-pink-500 text-pink-400 bg-transparent hover:bg-pink-500/10 focus:ring-pink-500 active:bg-pink-500/20',
+        'border border-green-500 text-green-400 bg-transparent hover:bg-green-500/10 focus:ring-green-500 active:bg-green-500/20',
     };
 
     const sizeStyles = {

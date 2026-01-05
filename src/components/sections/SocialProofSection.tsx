@@ -81,7 +81,7 @@ export default function SocialProofSection({
     {
       label: 'Active Users',
       value: '1,200+',
-      icon: <UsersIcon className="w-6 h-6 text-cyan-400" />,
+      icon: <UsersIcon className="w-6 h-6 text-green-400" />,
       description: 'Traders using AI insights daily',
     },
     {
@@ -93,7 +93,7 @@ export default function SocialProofSection({
     {
       label: 'Trades Analyzed',
       value: '50K+',
-      icon: <ClockIcon className="w-6 h-6 text-pink-400" />,
+      icon: <ClockIcon className="w-6 h-6 text-green-400" />,
       description: 'Market opportunities identified',
     },
   ];
@@ -107,12 +107,12 @@ export default function SocialProofSection({
     },
     {
       name: 'SOC 2 Compliant',
-      icon: <ShieldCheckIcon className="w-6 h-6 text-cyan-400" />,
+      icon: <ShieldCheckIcon className="w-6 h-6 text-green-400" />,
       description: 'Enterprise security standards',
     },
     {
       name: 'GDPR Compliant',
-      icon: <CheckBadgeIcon className="w-6 h-6 text-pink-400" />,
+      icon: <CheckBadgeIcon className="w-6 h-6 text-green-400" />,
       description: 'Privacy protection guaranteed',
     },
   ];
@@ -153,7 +153,7 @@ export default function SocialProofSection({
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl sm:text-5xl font-bold bg-gradient-to-r from-pink-400 via-purple-500 to-cyan-600 bg-clip-text text-transparent mb-6">
+          <h2 className="text-4xl sm:text-5xl font-bold bg-gradient-to-r from-green-400 via-emerald-500 to-green-600 bg-clip-text text-transparent mb-6">
             Trusted by Traders Worldwide
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
@@ -184,11 +184,11 @@ export default function SocialProofSection({
         {/* Testimonials Carousel */}
         <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 mb-16 relative overflow-hidden border border-gray-700">
           {/* Background decoration */}
-          <div className="absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-cyan-500/10 to-pink-500/10 rounded-full -translate-y-32 translate-x-32"></div>
+          <div className="absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-green-500/10 to-emerald-500/10 rounded-full -translate-y-32 translate-x-32"></div>
 
           <div className="relative z-10">
             <div className="text-center mb-8">
-              <h3 className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent mb-4">
+              <h3 className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-green-400 to-emerald-500 bg-clip-text text-transparent mb-4">
                 What Our Users Say
               </h3>
             </div>
@@ -269,7 +269,7 @@ export default function SocialProofSection({
                     onClick={() => setCurrentTestimonial(index)}
                     className={`touch-target rounded-full transition-colors duration-200 ${
                       index === currentTestimonial
-                        ? 'bg-cyan-500'
+                        ? 'bg-green-500'
                         : 'bg-gray-600 hover:bg-gray-500'
                     }`}
                     aria-label={`Go to testimonial ${index + 1}`}
